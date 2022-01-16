@@ -1,0 +1,684 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+*
+Codificação responsavel pela parte administrativa do site 
+*
+*/
+.adm_main_content{
+ 
+ overflow:hidden;
+ clear:both;
+}
+ .adm_menu_main{
+   clear:left;
+   width:90%;
+   margin:1% 5% 2% 5%;
+   height:100px;
+  }
+  .adm_menu_logo{
+   width:30%;
+   float:left;
+   height:100px;
+  }
+    .adm_menu_logo img{
+	  width:100%;
+	  height:100%;  
+     }
+   .adm_btn_menu{
+	 
+	  }
+   .adm_btn_menu label{
+	 padding:5px 15px;
+	 background-color:rgba(255,255,255,0.6); 
+	 height:40px;
+	 margin:30px 0px 30px 0px;
+	 line-height:40px;
+	 border-radius:5px;
+    }
+    .adm_btn_menu label:hover{
+	 cursor:pointer;
+	}
+  .adm_menu_msg{
+   width:70%;
+   float:left;
+  
+  }
+   .adm_menu_msg ul{
+	line-height:60px;
+	margin:20px 0px 20px 0px;
+	width:100%;
+	}
+    .adm_menu_msg li{
+     float:left;
+	 border-bottom:1px solid rgba(156,106,62,1);
+	 margin:0% 4% 0% 4%;
+	 width:17%;
+	 text-align:center;
+	 border-radius:5px;
+	 
+    }
+	.adm_menu_msg a{
+	   
+	   
+	   color:#000;
+	   text-decoration:none;
+	 }
+	  .adm_menu_msg li:hover{
+	 background-color:rgba(156,106,62,0.5);
+	 color:rgba(0,0,0,0.6)
+	 }
+ .adm_menu{
+  float:left;
+  width:20%;
+  overflow:hidden;
+  margin-left:5%;
+  min-height:400px;
+  margin-right:1%;
+  border-right:1px solid rgba(156,106,62,1);
+
+ }
+   .adm_menu h1{
+	  text-align:center;
+	  font-size:26px;
+	  color:#F00;
+	  margin-bottom:6%;
+   }
+  
+   .adm_menu h2{
+	 width:96%;
+	 margin:6% 2% 6% 2%;
+	 font-size:24px;
+	 color:rgba(255,0,0,0.8);
+	 text-align:left;  
+	}
+	.adm_menu_btn {
+
+	  background-color:rgba(156,106,62,0.5);
+	  height:40px;
+	  line-height:40px;
+	  border-radius:5px;
+	  text-align:center;
+	  
+	  width:56%;
+	  margin:2% 22% 8% 22%;
+	  
+	 }
+	  .adm_menu a{
+	   text-decoration:none;
+	   color:rgba(0,0,0,0.8);
+	  }
+   .adm_menu p{
+	text-align:justify;
+	font-size:18px;
+	color:rgba(0,0,0,0.8);
+	line-height:22px;
+	text-indent:20px;
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+	margin:1% 0% 2% 0%;
+	}
+	.adm_menu b{
+	 font-size:20px;
+	  color:rgba(156,106,62,1);  
+	 
+	}
+ .adm_content{
+  float:left;
+  
+  width:70%;
+  margin:0% 0% 0% 0%;
+  min-height:600px;
+  }
+   .adm_content h1{
+	 text-align:center;
+	 font-size:26px;
+	 margin-top:2%;
+	 color:rgba(156,106,62,0.8);
+	 margin-bottom:4%;
+    }
+  .adm_content h4{
+	  text-align:center;
+	  font-size:20px;
+	  margin-top:20%; 
+   }
+   .adm_content h2{
+	  font-size:22px;
+	  margin-left:3%;
+	  margin-top:4%;	 
+	  color:rgba(156,106,62,0.8);
+	   }
+	 .adm_perfil_dados{
+	  width:90%;
+	  margin:2% 5% 1% 5%;
+	  background-color:rgba(250,250,250,1);
+	  height:200px;
+	  color:rgba(0,0,0,1);
+	  border-radius:10px;	
+	 }
+	  .adm_perfi_dado{
+		width:92%;
+		margin:2% 4% 1% 4%;
+		height:50px;
+		line-height:50px;
+		font-size:16px;
+		 
+	   }
+	    .adm_perfi_dado h3{
+		 float:left;
+		 margin-right:1%;
+		 font-size:20px;
+		}
+		.adm_perfi_dado b{
+		  line-height:60px;
+		}
+      
+/*
+*
+Codificação voltada para a parte de produtos do sit
+*/
+	  .adm_prod_model{
+		width:100%;
+		margin:2% 0% 4% 0%;
+		height:140px;
+		border-bottom:1px solid rgba(0,0,0,0.1); 
+	
+	   }
+	    .adm_prod_img{
+		 width:20%;
+		 float:left;
+		 height:96%;
+		 margin:0% 1% 4% 0%;
+		}
+		 .adm_prod_img img{
+			width:100%;
+			height:100%;
+		  }
+		.adm_prod_text{
+		 width:79%;
+		 float:left;
+		 
+		}
+		 .adm_prod_text_p1{
+		  width:100%;
+		  height:80%;
+		  
+		 }
+		  .adm_prod_text h1{
+		   text-align:left;
+		   font-size:20px;
+		   color:rgba(0,0,0,1);
+		   margin-bottom:2%;
+		   }
+		  /* .adm_prod_text p{
+			 color:#000;
+		    }*/
+		   .adm_prod_text_info{
+			 width:50%;
+			 float:left; 
+			 margin-top:3%;
+			 color:#000;
+			 font-size:20px;
+			 color:rgba(156,106,62,0.8);
+			 }
+		   .adm_prod_text_info b{
+			font-size:18px;
+			color:rgba(0,0,0,1); 
+			}
+	/*#adm_modal_caracteri , #adm_modal_tipo{
+	 position:fixed;
+	 top:0;
+	 right:0;
+	 bottom:0;
+	 left:0;
+	 font-family:Arial, Helvetica, sans-serif;
+	 margin:auto;
+	 z-index:99999;
+	 display:none;
+	  opacity:1;
+	 
+	 width:400px;
+	  height:250px;
+	 background-color:rgba(156,106,62,0.8);
+	 
+	 
+	border-radius:10px;
+	  
+	}
+	#adm_modal_tipo{
+	 height:200px;
+	}
+	 #adm_modal_caracteri h1  , #adm_modal_tipo h1{
+	  text-align:center;
+	   color:rgba(0,0,0,0.7);
+	   margin:2% 0% 3% 0%;
+	 }
+
+	.adm_modal_int{
+	  width:100%;
+	  height:100%;
+	  
+	  
+	  
+	}
+	#adm_modal_fechar ,#adm_modal_fechar_tipo{
+	
+	 float:right;
+	
+
+     margin-right:6%;
+	 background-color:rgba(156,106,62,0.9);
+     color:rgba(0,0,0,0.7);
+	 padding:8px 15px;
+	 border-radius:5px;
+	 font-size:16px;
+	 text-align:center;
+	 width:20%;
+	}
+	#adm_modal_fechar:hover{
+	  cursor:pointer;
+	  color:rgba(0,0,0,0.9);
+	 }
+	 
+	.adm_modal_form{
+	 margin:2% 0% 4% 0%;
+	}
+	.adm_modal_form label{
+	 margin-left:3%;
+	 font-size:20px;
+	 margin-right:1%;
+	
+	}
+	.adm_modal_form select{
+	 width:250px;
+	 height:25px;
+	 margin-left:3.1%;
+	}
+	.adm_modal_form input{
+	 width:200px;
+	 height:20px;
+	}
+	.adm_modal_btns{
+	 height:100%;
+	 position:relative;
+	 margin-top:6%;
+	 
+	}
+	 .adm_modal_btns input{
+	  background-color:rgba(156,106,62,0.9);
+      color:rgba(0,0,0,0.7);
+	  padding:8px 15px;
+	  border-radius:5px;
+	  float:left;
+	  text-align:center;
+	  width:22%;
+	  border:none;
+	  margin-left:5%;
+	  font-size:16px;
+	 }
+	  .adm_modal_btns input:hover{
+		cursor:pointer; 
+		color:rgba(0,0,0,0.9);
+	   }
+	 .adm_modal_form p{
+	  width:90%;
+	  margin:1% 5% 0% 5%;
+	  text-align:justify;
+	  font-size:16px;
+	 }
+	 .adm_modal_form b{
+	  	color:rgba(0,0,0,0.7);
+		text-decoration:none;
+		font-size:19px;
+	}*/
+/*
+*
+*Codificação voltada para a parte de formularios do sit
+*
+*/
+.adm_form_content{
+width:50%;
+margin:5% 25% 10% 25%;
+min-height:400px;
+background-color:rgba(255,255,255,1);
+border-radius:5px;
+}
+ .adm_form_content form{
+ 
+ }
+ .adm_form_cap{
+   margin:3% 0% 5% 0%;	
+   width:100%;
+  
+ }
+  .adm_form_cap_dua{
+	float:left;
+	width:42%;
+	 margin:3% 1% 4% 1%;
+	height:60px;
+   }
+    .adm_form_cap_prim{
+	 margin-left:6%;
+	}
+	
+  .adm_form_cap label ,.adm_form_cap_dua label{
+   clear:both;
+   margin-left:5%;
+   width:200px;
+   font-size:20px;
+   color:rgba(156,106,62,0.7);
+   }
+   
+  .adm_form_input input ,.adm_form_textarea textarea  {
+	width:80%;
+	margin:2% 10% 5% 8%;
+	height:22px;
+	  } 
+	
+  .adm_form_btn input {
+	 float:right;
+	 margin:12% 11% 5% 0%;
+	 background-color:rgba(156,106,62,0.5);
+	 width:80px;
+	 height:36px;
+	 border:none;
+	 border-radius:10px;
+	 color:rgba(156,106,62,1);
+	 font-size:16px;
+	 
+	 }
+	 .adm_form_img{
+	  width:80%;
+	  height:200px;
+	  margin:2% 10% 4% 10%;
+	  }
+	   .adm_form_img img{
+		width:100%;
+		height:100%;  
+	   }
+	 .adm_form_textarea textarea{
+	  max-width:80%;
+	  min-width:80%;
+	  min-height:100px;
+	  max-height:100px; 
+	 }
+	 
+    .adm_form_btn input:hover{
+	 cursor:pointer;
+	}
+    .adm_form_cap input[type='file']{
+	 
+	 height:20px;
+	 margin-bottom:6%;
+	 opacity:0; 
+	  
+	}
+	.adm_form_label_file {
+	 width:auto;
+	 margin:8% 0% 1% 2%;
+	 height:20px;
+	 
+	}
+	 .adm_form_label_file label{
+	 color:rgba(156,106,62,1);
+	 background-color:rgba(156,106,62,0.2);
+	 padding:10px 15px;
+	 border-radius:10px;
+	 font-size:16px;
+	 margin-bottom:5%;
+	 height:30px;
+	 
+	 }
+	 .adm_form_label_file label:hover{
+	  cursor:pointer;
+	 }
+/*
+*
+Codificação da pagina de caracteristicas do produto
+*
+*/
+ .adm_prod_unit{
+  width:90%;
+  margin:4% 5% 5% 5%;
+  min-height:380px;	
+  color:rgba(0,0,0,0.9);
+  
+ }
+  .adm_prod_unit_img{
+	 float:left;
+	 height:200px;
+	 width:40%;
+	  
+	 margin:2% 30% 2% 30%;
+  }
+   .adm_prod_unit_img img{
+	 width:100%;
+	 height:100%; 
+	 border-radius:12px;
+	}
+  /*.adm_prod_unit_info{
+    float:left;
+	
+	width:50%;
+  }
+   .adm_prod_unit_info p{
+	margin:3% 0% 4% 0%; 
+	font-size:20px; 
+	
+	}
+	.adm_prod_unit_info b{
+	 font-size:21px;
+	 color:rgba(0,0,0,1);
+	}
+  /*.adm_prod_unit_desck{
+	 width:100%;
+	  
+	 clear:both;
+	 text-indent:20px;
+	 text-align:justify;
+	 line-height:20px;
+	 
+  }
+   .adm_prod_unit_desck h1{
+	  text-align:center;
+	  margin:1% 0% 2% 0%;
+	  }
+ 
+ .adm_prod_caracter {
+  width:90%;
+  margin:2% 5% 1% 5%;
+  min-height:400px;
+  color:rgba(0,0,0,0.8);
+ }
+ .adm_prod_caracter_false{
+  width:90%;
+  margin:2% 5% 1% 5%;
+  min-height:100px;
+  color:rgba(0,0,0,0.8);
+  
+ }
+  .adm_prod_caracter h1{
+   text-align:left;
+   
+  }
+   
+  .adm_prod_caracter_unit{
+	width:100%;
+	height:34px; 
+	line-height:34px;
+	border-radius:10px;
+	margin:2% 0% 3% 0%;
+	}
+  .adm_prod_caracter_unit_ativ{
+    background-color:rgba(203,175,148,0.6);
+   }
+  .adm_prod_caracter_unit_desativ{
+	 background-color:rgba(203,175,148,0.3);
+   }
+   
+  .adm_prod_caracter_unit_inf{
+    float:left;
+	margin-left:2%;
+	font-size:20px;
+	
+  }
+  .adm_prod_caracter_unit_exc{
+	float:right;
+	font-size:30px;
+    height:34px;
+	line-height:34px;
+	width:60px;
+	text-align:center;
+	border-radius:10px;
+	color:rgba(0,0,0,1);
+	
+	}
+	 .adm_prod_caracter_unit_exc:hover{
+		cursor:pointer;
+		background-color:rgba(203,175,148,1);
+		}
+   .adm_prod_caracter_btn{
+	 width:160px;
+	 text-align:center;
+	 height:30px;
+	 float:right;
+	 margin-top:2%;
+	 background-color:rgba(203,175,148,0.8);
+	 line-height:30px;
+	 border-radius:4px;
+	 margin-bottom:4%;
+	}
+	#adm_modal_tipo_open{
+	 cursor:pointer;
+	}
+	  .adm_prod_caracter_btn:hover{
+	   cursor:pointer;
+	  }
+	.adm_prod_caracter_false p{
+	 width:90%;
+	 margin:4% 5% 7% 5%;
+	 text-align:center;
+	}*/
+	
+/*
+Formatação aplica ao pop up que vai aparecer quando houver errou ou quando uma acao tiver sido realizada
+*/
+.adm_pop_erro {
+ width:400px;
+ height:240px;
+ top:0;
+ bottom:0;
+ right:0;
+ left:0;
+ margin:auto;
+ background-color:rgba(156,106,62,0.7);
+ color:rgba(0,0,0,0.8);
+ z-index:100;
+ position:fixed;
+ font-size:18px;
+ border-radius:10px;
+ display:none;
+}
+ .adm_pop_erro_susse{
+  height:110px;
+ }
+ .adm_pop_erro p{
+	margin:10% 5% 10% 5%;
+	width:90%;
+	height:20%;
+  }
+ .adm_pop_erro_title{
+	text-align:center;
+	
+	font-size:18px;
+	height:10%;
+	background-color:rgba(204,204,204,1);
+	height:60px;
+	line-height:60PX;
+	 border-radius:10px 10px 0px 0px;
+  }
+  .adm_pop_erro_sucess{
+	 background-color:rgba(135,255,131,1);
+	 color:rgba(0,0,0,0.8);
+	}
+	
+	 .adm_pop_erro_fals{
+	 background-color:#F00;
+     color:rgba(255,255,255,1);
+	}
+	
+  .adm_pop_erro_ok{
+	width:60px;
+	height:30px;
+	border-radius:8px;
+	background-color:rgba(156,106,62,1); 
+	color:#FFF;
+	text-align:center;
+	line-height:30px;
+	margin-right:5%;
+	margin-top:2%;
+	margin-bottom:1%;
+	
+	float:right;
+  }
+   .adm_pop_erro_ok:hover{
+	cursor:pointer;  
+	}
+/*
+*
+Programaçao relacionada com a parte de orçamento do sit
+*
+*/
+
+.adm_orc_main{
+ min-height:230px;
+ background-color:rgba(255,255,255,1);
+ width:90%;
+ margin:2% 5% 1% 5%;
+ border-radius:10px;
+}
+  .adm_orc_main h1{
+ 	margin:1% 0% 1% 3%;
+ 	text-align:left;
+ 	font-size:20px;
+	clear:both;
+  }
+  .adm_orc_primer{
+	height:30px;
+	line-height:30px; 
+	margin-top:10px;
+	
+   }
+   .adm_orc_info{
+	clear:both;
+	}
+	.adm_orc_infos{
+	 width:46%;
+	 float:left;
+	 margin-left:4%;
+	 height:24px;
+	 font-size:16px;
+	}
+	 .adm_exc_infos{
+	  width:96%;	
+	}
+  .adm_orc_btns{
+    clear:both;
+   }
+    .adm_orc_btn{
+	 min-width:90px;
+	 height:40px;
+	 float:right;
+	 margin:2% 1% 3% 3%;
+	 background-color:rgba(156,106,62,0.5);
+	 color:rgba(0,0,0,0.7);
+	 line-height:40px;
+	 border-radius:10px;
+	 text-align:center;
+	}
+	 .adm_orc_btn:hover{
+	 cursor:pointer;
+	 color:rgba(0,0,0,1);	
+	}

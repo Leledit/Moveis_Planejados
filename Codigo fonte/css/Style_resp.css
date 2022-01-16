@@ -1,0 +1,617 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width:1300px){
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 	
+     .menu_container_two_list{
+	width:56%;
+	margin-right:1%;
+	float:left;
+	margin-left:2%;
+ }
+  .menu_container_two_list ul li{
+	  width:17%;
+	  margin:0% 4% 0% 4%; 
+	  border-radius:5px;
+   }
+ /*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+
+   .contat_form_pl label{
+   margin-right:52%;
+  }
+  
+/*
+*
+Codificação voltada para a pagina administraiva do sit
+*
+*/
+.adm_log{
+width:34%;
+margin:0% 33% 0% 33%;
+
+}
+}
+
+@media only screen and (max-width:1100px){
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 	
+     .menu_container_two_list{
+	width:60%;
+	margin-right:0%;
+	float:left;
+	margin-left:0%;
+ }
+  
+    .menu_container_two_log{
+   width:38%;
+   float:left;
+
+   margin-left:2%;
+   
+  }
+ /*
+*
+Codificaçao voltada para a parte de produtos do site 
+*
+*/
+
+.contant_produc_unit{
+width:30%;
+margin:0% 2% 5% 1%;
+}
+
+.contant_prduc_text button{
+margin-top:1%;
+}	
+.contant_produc_tilt{
+  margin-bottom:5%;	
+ }
+  
+/*
+*
+Codificação da parte do rodape do site
+*
+*/
+.contant_rodap_log{
+display:none;
+}
+.contant_rodap_context{
+width:100%;
+}
+ /*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+.contat_form{
+ widows:80%;
+margin:2% 10% 4% 10%;
+overflow:hidden;
+clear:both;
+
+}
+ .contat_form_pl label{
+   margin-right:50%;
+  } 
+/*
+*
+Codificação da parte de orçamento
+*
+*/
+.orcamento_form{
+width:70%;
+margin:5% 15% 5% 15%;
+background-color:rgba(255,255,255,1);
+height:100%;
+overflow:hidden;
+}
+
+/*
+*
+Codificação voltada para a pagina administraiva do sit
+*
+*/
+.adm_log{
+width:36%;
+margin:0% 32% 0% 32%;
+
+}
+}
+
+@media only screen and (max-width:1000px){
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 	
+     .menu_container_two_list{
+	width:58%;
+	margin-right:0%;
+	float:left;
+	margin-left:0%;
+ }
+  
+    .menu_container_two_log{
+   widows:40%;
+   float:left;
+   margin-left:2%;
+   
+  }
+  .slid_text{
+	width:50%;
+	float:left; 
+   }
+/*
+*
+Codificação voltada para a parte caracteritica dos produtos do site
+*
+*/
+.prod_border_unit{
+	  border:1px solid rgba(0,0,0,0.2);
+	  width:30%;
+	  margin:0% 1% 0% 1%;
+	
+	 }
+prod_border_unit img{
+width:90%;
+}
+/*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+.contat_main {
+widows:100%;
+margin:2% 0% 4% 0%;
+border-right:none;
+border-left:none;
+}
+ .contat_unit{
+  width:33%;
+  margin:2% 0% 2% 0%;
+ }
+
+}
+
+@media only screen and (max-width:900px){
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 	
+     .menu_container_two_list{
+	width:58%;
+	margin-right:0%;
+	float:left;
+	margin-left:0%;
+ }
+
+  .menu_container_two_list ul li{
+	  width:17%;
+	  margin:0% 4% 0% 4%; 
+	  border-radius:5px;
+   }
+    .menu_container_two_log{
+   width:40%;
+   float:left;
+   margin-left:2%;
+   
+  }
+   .slid_text{
+	width:60%;
+	float:left; 
+   }
+	  /*
+/*
+*
+Codificação da parte de orçamento
+*
+*/
+.orcamento_form{
+width:80%;
+margin:5% 10% 5% 10%;
+background-color:rgba(255,255,255,1);
+height:100%;
+overflow:hidden;
+}
+/*
+*
+Codificação voltada para a pagina administraiva do sit
+*
+*/
+.adm_log{
+width:40%;
+margin:0% 30% 0% 30%;
+}
+}
+
+@media only screen and (max-width:860px){
+/*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+ .contat_unit{
+  width:80%;
+  margin:2% 10% 2% 10%;
+  clear:both;
+ 
+ }
+ /*
+*
+Codificação voltada para a pagina administraiva do sit
+*
+*/
+.adm_log{
+width:46%;
+margin:0% 27% 0% 27%;
+}
+}
+@media only screen and (max-width:780px){
+ .title_pag_alt{
+	 height:140px;
+	 
+	 }
+.title_pag_alt2{
+	  height:100px;
+    }
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 	
+   .menu_container_two label{
+	 float:right;
+	 padding:10px 15px;	
+	 cursor:pointer;
+	 height:20px;
+	 width:20px;
+	 margin:4% 3% 0% 0%;
+	 text-align:center;
+	}
+	.menu_container_two label:hover{
+	 background-color:rgba(0,0,0,0.1)}
+	 
+    .menu_container_two_list{
+	 width:100%;
+	 clear:both;
+
+	 
+	}
+	.menu_container_two_list ul {
+	 margin-top:0px;	
+	 width:100%;
+	}
+    .menu_container_two_list ul li{
+	 clear:both;
+	 background-color:#000;
+	 width:100%;
+	 margin:0% 0% 0% 0%;  
+	 border-radius:0px; 
+	 color:#FFF;
+	 border-bottom:1px solid rgba(227,206,185,1);
+	 transition: 0.5s ease-in;
+	}
+	label[for="btn-menu"]{
+     display:block;
+     }/* faz com que o o label fique visivel*/
+
+	.menu_container_two_list{
+	 display:none;
+	 /* opacity:1;
+	  transition:opacity .5s liner;*/
+	}
+	/*.menu_container_two_list.hider{
+	 opacity:0;
+	 pointer-events: none;*/
+	
+	#btn-menu:checked ~ .menu_container_two_list {
+	 display:block;
+	 
+	}
+/*
+*
+Codificaçao voltada para a parte de produtos do site 
+*
+*/
+
+.title_pag{
+width:90%;
+margin:5%;
+}
+.contant_produc_unit{
+width:90%;
+margin:0% 5% 5% 5%;
+height:580px;
+}
+
+.contant_prduc_text button{
+margin-top:1%;
+}	
+
+/*
+*
+Codificação da parte do rodape do site
+*
+*/
+.rodap_unit{
+width:90%;
+clear:both;
+margin-left:4%;
+text-align:left;
+}
+.rodap_unit ul{
+text-align:left;		  
+}
+.rodap_unit h1{
+width:30%;
+margin:2% 0% 0% 0%;
+text-align:left;
+}
+ .contant_rodap_cop{
+	clear:both;
+  }
+ 
+/*
+*
+Codificação voltada para a parte caracteritica dos produtos do site
+*
+*/
+.prod_img{
+border:none;
+}
+.prod_img ,.prdo_caract{
+width:80%;
+margin:0% 10% 4% 10%;
+clear:both;
+}
+/*
+*
+Codificação voltada para a parte da empre (Historia e valores)
+*
+*/
+ .mov_unit{
+  width:80%;
+  margin:3% 10% 5% 10%;
+  float:left;
+  text-align:center; 
+  }
+
+ /*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+.contat_form{
+ widows:100%;
+margin:2% 0% 4% 0%;
+}
+.contat_form_pl{
+  width:80%;
+  clear:both;
+  margin:0% 10% 0% 10%;
+
+ }
+.contat_form_pl textarea{
+	min-height:200px;
+	max-height:200px;
+  }
+/*
+*
+Codificação voltada para a pagian inicial do site 
+*
+*/
+.index_envio{
+height:200px;
+}
+ .index_envio-text{
+  width:80%;
+  clear:both;
+  margin:0% 10% 0% 10%;	
+ }
+   .index_envio-text h1{
+    margin:4% 0% 4% 0%;
+  }
+ .index_envio-img{
+  width:60%;
+  clear:both;
+  margin:2% 20% 2% 20%;	
+ }
+ /*
+*
+Codificação da parte de orçamento
+*
+*/
+.orcamento_form{
+width:90%;
+margin:5%;
+background-color:rgba(255,255,255,1);
+height:100%;
+overflow:hidden;
+}
+
+}
+
+@media only screen and (max-width:480px){
+.title_pag_alt{
+	 height:200px;
+	 
+	 } 
+ /*
+*
+Codificaçao voltada para a parte de menu do site 
+*
+*/ 
+    .menu_container_two_log {
+     width:70%;
+	
+	}
+.menu_container_one_email , .menu_container_one_cell{
+margin:0;
+line-height:20px;
+margin-bottom:2px;
+text-align:center;
+clear:both;
+width:100%;
+
+
+}
+#photo-viewer{
+	display:none;
+}
+/*
+*
+Codificação da parte do rodape do site
+*
+*/
+.rodap_unit h1{
+width:56%;
+margin:5% 0% 4% 0%;
+text-align:center;
+}
+
+/*
+*
+Codificação voltada para a parte caracteritica dos produtos do site
+*
+*/
+.prod_main{
+}
+.prod_img{
+border:none;
+}
+.prod_img ,.prdo_caract ,.prod_main{
+width:100%;
+margin:0% 0% 2% 0%;
+clear:both;
+border:none;
+}
+.prdo_caract ul{
+ margin:0% 0% 4% 10%;
+}
+.prdo_caract h3, .prdo_caract h4{
+width:94%;
+margin:0% 3% 0% 3%;
+}
+.prod_border_unit{
+border-right:none;
+border-left:none;
+width:100%;
+margin:0;
+}
+/*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+ .contat_unit h1{
+  margin-bottom:6%;
+  margin-top:2%;
+  
+  }
+  .title_pag h1{
+	line-height:30px; 
+	}
+ /*
+*
+Codificação voltada para a parte de Contato 
+*
+*/
+.contat_form{
+ widows:100%;
+margin:2% 0% 4% 0%;
+}
+.contat_form_pl{
+  width:90%;
+  clear:both;
+  margin:2% 5% 2% 5%;
+  
+ }
+/*
+*
+Codificação voltada para a pagian inicial do site 
+*
+*/
+
+ .index_envio-text{
+  width:100%;
+  clear:both;
+  margin:0% 0% 2% 0%;	
+ }
+  .index_envio-text h1{
+   margin:4% 0% 5% 0%;
+  }
+ .index_envio-img{
+  width:100%;
+  clear:both;
+  margin:2% 0% 4% 0%;	
+ }
+ 
+  /*
+*
+Codificação da parte de orçamento
+*
+*/
+.orcamento_form{
+width:100%;
+margin:0%;
+background-color:rgba(240,240,240,1);
+height:100%;
+overflow:hidden;
+}
+
+.orcamento_form input[type='submit']{
+width:30%;
+margin-top:6%;
+}
+
+.orcamento_form h2{
+  width:96%;
+  margin:5% 2% 5% 2%;
+  
+}
+ .orcamento_form ul li{
+    margin:4% 0% 5% 0%;
+	font-size:18px;
+   }
+/*
+*
+Codificação voltada para a pagina de login
+*
+*/
+.img_fundo{
+display:none;
+}
+.adm_log{
+top:0;
+height:100vh;
+width:98%;
+margin:0%;
+border-radius:0px;
+
+position:relative;
+}
+}
+@media only screen and (max-width:320px){
+ .menu_container_one{
+height:60px;
+
+	 } 	
+}
+
+
+
+	
+
